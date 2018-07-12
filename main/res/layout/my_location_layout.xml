@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_keyboard_backspace_black_24dp"
+        android:id="@+id/backFrom"
+        android:padding="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tap the dots"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:id="@+id/desc"
+            />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/sticker"
+            android:src="@drawable/sticker25"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.gauravbhola.ripplepulsebackground.RipplePulseLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:clipChildren="false"
+            ripple:rippleColor="#F98600"
+            ripple:rippleType="stroke"
+            ripple:strokeWidth="2dp"
+            ripple:startRadius="42dp"
+            ripple:endRadius="100dp"
+            ripple:duration="2000"
+            android:layout_alignParentStart="true"
+            android:id="@+id/layout_ripplepulse">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/dot_orange_24dp"/>
+        </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Point A"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/pointA"
+            android:visibility="visible"
+            android:layout_below="@id/layout_ripplepulse"
+            android:layout_marginStart="30dp"/>
+
+
+        <com.gauravbhola.ripplepulsebackground.RipplePulseLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:clipChildren="false"
+            ripple:rippleColor="#189C16"
+            ripple:rippleType="stroke"
+            ripple:strokeWidth="2dp"
+            android:visibility="gone"
+            ripple:startRadius="42dp"
+            ripple:endRadius="100dp"
+            ripple:duration="2000"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/layout_ripplepulse2">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/dot_green_24dp"/>
+        </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Point B"
+            android:id="@+id/pointB"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/layout_ripplepulse"
+            android:layout_marginEnd="30dp"/>
+    </RelativeLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_responsive"
+    android:layout_margin="32dp"
+    android:text="Evaluate distance"
+    android:id="@+id/evaluate"
+    android:textColor="@color/PPR_FULL_WHITE"
+    android:textStyle="bold"/>
+
+
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

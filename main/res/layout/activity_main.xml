@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loca"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b1924daf"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A quick app"
+        android:textSize="50sp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:layout_above="@+id/d2"
+        android:textColor="@color/PPR_FULL_WHITE"
+         android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/PPR_FULL_WHITE"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:id="@+id/d2"
+        android:layout_above="@id/d3"
+        android:layout_marginBottom="40dp"
+        android:text="Evaluate your distance from here to there. It's free, simple and fast!"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/d3"
+        android:text="Start"
+        android:textStyle="bold"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_white"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

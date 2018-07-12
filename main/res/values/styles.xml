@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ColoredTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowActionBar">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="WhiteTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowActionBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/PPR_FULL_WHITE</item>
+        <item name="colorPrimaryDark">@color/PPR_FULL_WHITE</item>
+        <item name="colorAccent">@color/PPR_PURPLE700</item>
+
+
+    </style>
+
+    <style name="PurpleTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowActionBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/PPR_PURPLE700</item>
+        <item name="colorPrimaryDark">@color/PPR_PURPLE700</item>
+        <item name="colorAccent">@color/PPR_GREY500</item>
+
+    </style>
+
+    <style name="YellowTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowActionBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/PPR_YELLOW900</item>
+        <item name="colorPrimaryDark">@color/PPR_YELLOW900</item>
+        <item name="colorAccent">@color/PPR_FULL_WHITE</item>
+
+    </style>
+    <style name="RedTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowActionBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/PPR_RED900</item>
+        <item name="colorPrimaryDark">@color/PPR_RED900</item>
+        <item name="colorAccent">@color/PPR_FULL_WHITE</item>
+
+    </style>
+    <style name="GreyTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowActionBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/PPR_BLUE_GREY700</item>
+        <item name="colorPrimaryDark">@color/PPR_BLUE_GREY700</item>
+        <item name="colorAccent">@color/PPR_FULL_WHITE</item>
+
+    </style>
+    <style name="GreenTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowActionBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/PPR_GREEN700</item>
+        <item name="colorPrimaryDark">@color/PPR_GREEN900</item>
+        <item name="colorAccent">@color/PPR_FULL_WHITE</item>
+
+    </style>
+    <style name="BlueTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowActionBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/PPR_BLUE700</item>
+        <item name="colorPrimaryDark">@color/PPR_BLUE700</item>
+        <item name="colorAccent">@color/PPR_FULL_WHITE</item>
+
+    </style>
+
+
+    <style name="myLimeTheme" parent="@style/ColoredTheme.Base" />
+    <style name="myYellowTheme" parent="@style/YellowTheme.Base"/>
+    <style name="myWhiteTheme" parent="@style/WhiteTheme.Base" />
+    <style name="myRedTheme" parent="@style/RedTheme.Base"/>
+    <style name="myGreyTheme" parent="@style/GreyTheme.Base"/>
+    <style name="myGreenTheme" parent="@style/GreenTheme.Base"/>
+    <style name="myBlueTheme" parent="@style/BlueTheme.Base"/>
+
+    <style name="myPurpleTheme" parent="@style/PurpleTheme.Base" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
